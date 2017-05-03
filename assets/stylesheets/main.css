@@ -135,17 +135,6 @@ pre {
   clear: both; }
 
 /**
- * Icons
- */
-.icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
-
-/**
  * Site header
  */
 .site-header {
@@ -317,6 +306,19 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+/**
+* Coming Soon
+**/
+.full-bg {
+  background-image: url(../images/magnum-pan-africa.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center; }
+
+.home {
+  width: 100%;
+  margin: 0; }
 
 /**
  * Syntax highlighting styles
